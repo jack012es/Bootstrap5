@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- Importar Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="mb-3">
+                <label class="form-label" for="name">Nombre</label>
+                <input placeholder="Ingrese su nombre" class="form-control form-control-sm" name="name" type="text"
+                    id="name" disabled>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-form-label col-1" for="email">Email</label>
+                <div class="col-10"> <input disabled readonly value="prueba@dominio.com" placeholder="Ingrese su email"
+                        class="form-control-plaintext" name="email" type="email" id="email"></div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="description">Description</label>
+                <textarea placeholder="Ingrese una descripción" class="form-control" name="description" id="description"
+                    cols="30" rows="10"></textarea>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
